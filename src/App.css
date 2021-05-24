@@ -12,6 +12,6 @@
 
 .hidden-toolbar .ck-sticky-panel__content{
   /* display: none; */
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 

@@ -41,13 +41,14 @@ export default function EditorBase ({type="classic", onChange, data}){
                             'undo',
                             'redo',
                             'table',
-                            'specialCharacters'
+                            'htmlEmbed'
                             // 'ckfinder'
                         ],
                     },
                 }}
                 onChange={(event, editor) => {
                     const data = editor.getData();
+                    console.log(`data`, data)
                     onChange&&onChange(event, editor)
                 }}
 
